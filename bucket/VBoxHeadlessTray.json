@@ -1,0 +1,36 @@
+{
+    "homepage": "https://www.toptensoftware.com/vboxheadlesstray/",
+    "description": "VBoxHeadlessTray is simple Windows app that runs a VirtualBox VM as a tray icon",
+    "version": "6.0.4",
+    "url": "http://www.toptensoftware.com/downloads/VBoxHeadlessTray604Setup.exe",
+    "hash": "bfa34900432844297e6522da8e830a27f26dc34742cad149ceb660b6c95b1797",
+    "innosetup": true,
+    "architecture": {
+        "64bit": {
+            "pre_install": [
+                "rename-item \"$dir\\VBoxHeadlessTray,2.exe\" VBoxHeadlessTray.exe",
+                "remove-item \"$dir\\VBoxHeadlessTray,*.exe\""
+            ]
+        },
+        "32bit": {
+            "pre_install": [
+                "rename-item \"$dir\\VBoxHeadlessTray,1.exe\" VBoxHeadlessTray.exe",
+                "remove-item \"$dir\\VBoxHeadlessTray,*.exe\""
+            ]
+        }
+    },
+    "bin": "VBoxHeadlessTray.exe",
+    "shortcuts": [
+        [
+            "VBoxHeadlessTray.exe",
+            "VBoxHeadlessTray"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.toptensoftware.com/vboxheadlesstray/",
+        "re": "for VirtualBox ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://www.toptensoftware.com/downloads/VBoxHeadlessTray$cleanVersionSetup.exe"
+    }
+}
