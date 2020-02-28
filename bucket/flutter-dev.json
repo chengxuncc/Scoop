@@ -1,0 +1,51 @@
+{
+    "homepage": "https://flutter.dev/",
+    "version": "1.15.3",
+    "license": "BSD-3-Clause",
+    "url": [
+        "https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_v1.15.3-dev.zip",
+        "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/flutter-dev-setup.ps1"
+    ],
+    "extract_dir": "flutter",
+    "hash": [
+        "b26589217989065e75caa7dfb60036d5cf4c7d5768ba9f1023684a6926549a98",
+        "bbd8dd269dd70d97e0224025281e55b7e2e32364d5c47e082ca7f45e33d1a613"
+    ],
+    "depends": [
+        "android-sdk",
+        "java/adopt8-hotspot"
+    ],
+    "description": "Flutter is Google’s mobile app SDK for crafting high-quality native interfaces on iOS and Android in record time. This is the dev version, since Flutter wasn't officially 'released' yet.",
+    "env_add_path": "bin\\cache\\dart-sdk",
+    "bin": [
+        "bin\\flutter.bat",
+        "flutter-dev-setup.ps1"
+    ],
+    "post_install": [
+        "flutter-dev-setup.ps1",
+        "Write-Host Some licenses need to be accepted before developing. We recommend you do so by running 'flutter doctor --android-licenses'. -ForegroundColor Yellow",
+        "flutter doctor"
+    ],
+    "checkver": {
+        "url": "https://storage.googleapis.com/flutter_infra/releases/releases_windows.json",
+        "regex": "windows_v([\\w-.]+)-dev"
+    },
+    "autoupdate": {
+        "url": "https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_v$version-dev.zip",
+        "hash": {
+            "url": "https://storage.googleapis.com/flutter_infra/releases/releases_windows.json",
+            "jsonpath": "$.releases[?(@.archive =~ /.*$basename/)].sha256"
+        }
+    },
+    "suggest": {
+        "Visual Studio Code with Flutter Extension": [
+            "vscode",
+            "vscode-portable"
+        ]
+    },
+    "notes": [
+        "Flutter has been successfully installed and put in your PATH.",
+        "If using Visual Studio Code, don't forget to install the Flutter Extension!",
+        "Then connect an Android Phone and start coding :-)"
+    ]
+}
