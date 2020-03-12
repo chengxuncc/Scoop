@@ -1,14 +1,14 @@
 {
     "homepage": "https://flutter.dev/",
-    "version": "1.15.3",
+    "version": "1.15.20",
     "license": "BSD-3-Clause",
     "url": [
-        "https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_v1.15.3-dev.zip",
+        "https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_v1.15.20-dev.zip",
         "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/flutter-dev-setup.ps1"
     ],
     "extract_dir": "flutter",
     "hash": [
-        "b26589217989065e75caa7dfb60036d5cf4c7d5768ba9f1023684a6926549a98",
+        "145aded225c3c29293acdc1182b7974bfe53e7b195308b202c32baccf68dfa91",
         "bbd8dd269dd70d97e0224025281e55b7e2e32364d5c47e082ca7f45e33d1a613"
     ],
     "depends": [
