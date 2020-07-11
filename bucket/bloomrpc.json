@@ -1,0 +1,28 @@
+{
+    "homepage": "https://github.com/uw-labs/bloomrpc",
+    "version": "1.4.1",
+    "license": "GNU LGPL v3.0",
+    "description": "The missing GUI Client for GRPC services.",
+    "url": "https://github.com/uw-labs/bloomrpc/releases/download/1.4.1/bloomrpc-setup-1.4.1.exe#/dl.7z",
+    "hash": "sha512:0664776353f0f331e6e44556506f77a0a137630e1ed5513cb4f19995a9d11319d77c419f9e05fe2cedde9b6c59301e42fca86c39066c7bcd509248c24ef08433",
+    "installer": {
+        "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+    },
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
+    "shortcuts": [
+        [
+            "BloomRPC.exe",
+            "BloomRPC"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/uw-labs/bloomrpc"
+    },
+    "autoupdate": {
+        "url": "https://github.com/uw-labs/bloomrpc/releases/download/$version/bloomrpc-setup-$version.exe#/dl.7z",
+        "hash": {
+            "url": "$baseurl/latest.yml",
+            "find": "sha512:\\s+(.*)"
+        }
+    }
+}
