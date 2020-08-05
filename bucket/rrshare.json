@@ -16,6 +16,6 @@
         "re": "rrshare([\\d.]+)\\.exe"
     },
     "autoupdate": {
-        "url": "http://113.132.128.134:3054/rrshare$version.exe"
+        "url": "http://175.6.228.5:3054/rrshare$version.exe"
     }
 }
