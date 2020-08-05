@@ -1,9 +1,9 @@
 {
     "homepage": "http://app.rrysapp.com/",
     "description": "人人影视客户端",
-    "version": "3.2.7",
-    "url": "http://113.132.128.133:3054/rrshare3.2.7.exe",
-    "hash": "145067df3e3a8b52886eeb7686c880ea5eee8b0077a2cd18d37cdb6aba99a4e7",
+    "version": "3.2.8",
+    "url": "http://113.132.128.133:3054/rrshare3.2.8.exe",
+    "hash": "5629f9fc8fee85a829301f747b0d4b9b5e90acd5507dc3a1abfa8e54ff4595e3",
     "innosetup": true,
     "shortcuts": [
         [
