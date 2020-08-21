@@ -3,7 +3,7 @@
     "version": "1.21.0-9.0.pre",
     "license": "BSD-3-Clause",
     "url": [
-        "https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_v?1.21.0-9.0.pre-dev.zip",
+        "https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_1.21.0-9.0.pre-dev.zip",
         "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/flutter-dev-setup.ps1"
     ],
     "extract_dir": "flutter",
@@ -28,10 +28,10 @@
     ],
     "checkver": {
         "url": "https://storage.googleapis.com/flutter_infra/releases/releases_windows.json",
-        "regex": "windows_v?([\\w-.]+)-dev"
+        "regex": "windows_([\\w-.]+)-dev"
     },
     "autoupdate": {
-        "url": "https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_v?$version-dev.zip",
+        "url": "https://storage.googleapis.com/flutter_infra/releases/dev/windows/flutter_windows_$version-dev.zip",
         "hash": {
             "url": "https://storage.googleapis.com/flutter_infra/releases/releases_windows.json",
             "jsonpath": "$.releases[?(@.archive =~ /.*$basename/)].sha256"
