@@ -28,10 +28,10 @@
     ],
     "checkver": {
         "url": "https://storage.googleapis.com/flutter_infra/releases/releases_windows.json",
-        "regex": "windows_v([\\w-.]+)-beta"
+        "regex": "windows_v?([\\w-.]+)-beta"
     },
     "autoupdate": {
-        "url": "https://storage.googleapis.com/flutter_infra/releases/beta/windows/flutter_windows_v$version-beta.zip",
+        "url": "https://storage.googleapis.com/flutter_infra/releases/beta/windows/flutter_windows_v?$version-beta.zip",
         "hash": {
             "url": "https://storage.googleapis.com/flutter_infra/releases/releases_windows.json",
             "jsonpath": "$.releases[?(@.archive =~ /.*$basename/)].sha256"
