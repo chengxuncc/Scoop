@@ -1,0 +1,18 @@
+{
+    "homepage": "https://www.vagrantup.com/vmware/downloads",
+    "description": "Vagrant VMware Utility",
+    "version": "1.0.13",
+    "url": "https://releases.hashicorp.com/vagrant-vmware-utility/1.0.13/vagrant-vmware-utility_1.0.13_x86_64.msi",
+    "hash": "c9ca8a0e5556f5b5b1fe00584f4e6a1b7a3a7ddd72e46d4d740c46d2e32306c7",
+    "bin": "HashiCorp/VagrantVMwareUtility/bin/vagrant-vmware-utility.exe",
+    "checkver": {
+        "url": "https://www.vagrantup.com/vmware/downloads",
+        "re": "vagrant-vmware-utility_([\\d.]+)_x86_64.msi"
+    },
+    "autoupdate": {
+        "url": "https://releases.hashicorp.com/vagrant-vmware-utility/$version/vagrant-vmware-utility_$version_x86_64.msi",
+        "hash": {
+            "url": "$baseurl/vagrant-vmware-utility_$version_SHA256SUMS"
+        }
+    }
+}
