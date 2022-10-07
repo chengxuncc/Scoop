@@ -1,0 +1,19 @@
+{
+    "homepage": "https://github.com/uw-labs/bloomrpc",
+    "version": "nightly-d95f3097c48da8451d672f993ca2dfbe59b47c99",
+    "license": "MIT",
+    "description": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.",
+    "url": "https://github.com/foundry-rs/foundry/releases/download/nightly-d95f3097c48da8451d672f993ca2dfbe59b47c99/foundry_nightly_win32_amd64.zip",
+    "hash": "75011F3FCE8A64EDCFD590C21A24297DC93776772966C145E6947D62D885CAB0",
+    "bin": [
+        "anvil.exe",
+        "cast.exe",
+        "forge.exe"
+    ],
+    "checkver": {
+        "github": "https://github.com/foundry-rs/foundry"
+    },
+    "autoupdate": {
+        "url": "https://github.com/foundry-rs/foundry/releases/download/$version/foundry_nightly_win32_amd64.zip"
+    }
+}

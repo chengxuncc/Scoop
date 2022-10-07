@@ -12,8 +12,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/chengxuncc/VBoxHeadlessTray/releases",
-        "re": "VBoxHeadlessTray-amd64.([\\d.]+).exe"
+        "github": "https://github.com/chengxuncc/VBoxHeadlessTray"
     },
     "autoupdate": {
         "url": "https://github.com/chengxuncc/VBoxHeadlessTray/releases/download/v$version/VBoxHeadlessTray-amd64.$version.exe#/VBoxHeadlessTray.exe"
