@@ -1,17 +1,17 @@
 {
-    "version": "2.11.1",
+    "version": "2.12.0",
     "homepage": "https://www.zaproxy.org/",
     "description": "Zed Attack Proxy (ZAP) is a free, open-source penetration testing tool being maintained under the umbrella of the Open Web Application Security Project (OWASP). ZAP is designed specifically for testing web applications and is both flexible and extensible.",
     "license": "Apache-2.0",
-    "url": "https://github.com/zaproxy/zaproxy/releases/download/v2.11.1/ZAP_2.11.1_Crossplatform.zip",
-    "hash": "7d290433e4886da0fb3ff2434928c06046d1dd984b9c18bb3761c6a8f59ea57f",
+    "url": "https://github.com/zaproxy/zaproxy/releases/download/v2.12.0/ZAP_2.12.0_Crossplatform.zip",
+    "hash": "47c6b7a73e6192c7cd6b1ed15afa95205a501cdfca1be990dfbd340dec4f9a99",
     "suggest": {
         "JDK": [
             "java/oraclejdk",
             "java/openjdk"
         ]
     },
-    "extract_dir": "ZAP_2.11.1",
+    "extract_dir": "ZAP_2.12.0",
     "bin": "zap.bat",
     "shortcuts": [
         [
