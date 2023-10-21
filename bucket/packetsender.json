@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/dannagle/PacketSender",
-    "version": "8.4.3",
+    "version": "8.5.2",
     "license": "GNU GPL v2.0",
     "description": "Packet Sender is an open source utility to allow sending and receiving TCP, UDP, and SSL (encrypted TCP) packets.",
-    "url": "https://github.com/dannagle/PacketSender/releases/download/v8.4.3/PacketSenderPortable_v8.4.3.zip",
-    "hash": "e7aa881eb9a819a329d87eb31bede4d4a4983130f74745bd5ce32009d189be3d",
+    "url": "https://github.com/dannagle/PacketSender/releases/download/v8.5.2/PacketSenderPortable_v8.5.2.zip",
+    "hash": "6f533a883ad83d6833569de9a472e8c64e2cd8071765a0a711f8808c4842571c",
     "extract_dir": "PacketSenderPortable",
     "shortcuts": [
         [
