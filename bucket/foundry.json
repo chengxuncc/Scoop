@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/foundry-rs/foundry",
-    "version": "nightly-602460eb99e1645eab970bacc5a6d01368a07457",
+    "version": "nightly-a839414d0bcf069bf2d226260f259c4f4dc4047d",
     "license": "MIT",
     "description": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.",
-    "url": "https://github.com/foundry-rs/foundry/releases/download/nightly-602460eb99e1645eab970bacc5a6d01368a07457/foundry_nightly_win32_amd64.zip",
-    "hash": "fa3175413e5b6e8da914bcf7eab3cdf3b74cba73b063acd50d8761dabe31d580",
+    "url": "https://github.com/foundry-rs/foundry/releases/download/nightly-a839414d0bcf069bf2d226260f259c4f4dc4047d/foundry_nightly_win32_amd64.zip",
+    "hash": "146f8e2cff988464650d5194cb3eb90609e2c200d7b6ff9f21caf9261fad83b0",
     "bin": [
         "anvil.exe",
         "cast.exe",
