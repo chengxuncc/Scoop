@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/depler/curl-impersonate-win",
-    "version": "20230227",
+    "version": "20240211",
     "license": "MIT",
     "description": "A special build of curl for Windows that can impersonate Chrome and Safari.",
-    "url": "https://github.com/depler/curl-impersonate-win/releases/download/20230227/curl-impersonate-win.zip",
-    "hash": "22ffa3585da6a9f2d44bc47f8bb5aad6d297956b8e49cff9d6f59e08c42f0df3",
+    "url": "https://github.com/depler/curl-impersonate-win/releases/download/20240211/curl-impersonate-win.zip",
+    "hash": "fe6aa66c5f3f8492e5677816237fa3557e17dae1adff55da428c811d19818363",
     "extract_dir": "curl-impersonate-win",
     "bin": [
         [
